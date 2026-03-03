@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aeef806e-68b7-4e47-83f6-8e18599df865" name="Changes" comment="首次提交">
+      <change afterPath="$PROJECT_DIR$/.idea/MC2D-YOLO.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/causal-conv1d/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/causal-conv1d/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/causal-conv1d/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/causal-conv1d/causal_conv1d/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/causal-conv1d/causal_conv1d/causal_conv1d_interface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/causal-conv1d/csrc/causal_conv1d.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/causal-conv1d/csrc/causal_conv1d.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/causal-conv1d/csrc/causal_conv1d_bwd.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/causal-conv1d/csrc/causal_conv1d_common.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/causal-conv1d/csrc/causal_conv1d_fwd.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/causal-conv1d/csrc/causal_conv1d_update.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/causal-conv1d/csrc/static_switch.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/causal-conv1d/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/causal-conv1d/tests/test_causal_conv1d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cfg/yolov8_mamba.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco_fix_prediction_json_DeepLession.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco_fix_prediction_json_LUNA16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimental diagram/DeepLesion_Params_AP_Plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimental diagram/LUNA16_Performance_Tradeoff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimental diagram/Lesion_Size_Analysis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimental diagram/Refined_Size_Comparison_Plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimental diagram/deeplesion_joint_plot_parts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experimental diagram/deeplesion_sunburst.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/.ipynb_checkpoints/setup-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/assets/selection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/benchmarks/benchmark_generation_mamba_simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/csrc/selective_scan/reverse_scan.cuh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/csrc/selective_scan/selective_scan.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/csrc/selective_scan/selective_scan.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/csrc/selective_scan/selective_scan_bwd_bf16_complex.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/csrc/selective_scan/selective_scan_bwd_bf16_real.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/csrc/selective_scan/selective_scan_bwd_fp16_complex.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/csrc/selective_scan/selective_scan_bwd_fp16_real.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/csrc/selective_scan/selective_scan_bwd_fp32_complex.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/csrc/selective_scan/selective_scan_bwd_fp32_real.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/csrc/selective_scan/selective_scan_bwd_kernel.cuh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/csrc/selective_scan/selective_scan_common.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/csrc/selective_scan/selective_scan_fwd_bf16.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/csrc/selective_scan/selective_scan_fwd_fp16.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/csrc/selective_scan/selective_scan_fwd_fp32.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/csrc/selective_scan/selective_scan_fwd_kernel.cuh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/csrc/selective_scan/static_switch.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/csrc/selective_scan/uninitialized_copy.cuh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/evals/lm_harness_eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/mamba_ssm/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/mamba_ssm/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/mamba_ssm/models/mixer_seq_simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/mamba_ssm/modules/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/mamba_ssm/modules/mamba_simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/mamba_ssm/ops/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/mamba_ssm/ops/selective_scan_interface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/mamba_ssm/ops/triton/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/mamba_ssm/ops/triton/layernorm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/mamba_ssm/ops/triton/selective_state_update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/mamba_ssm/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/mamba_ssm/utils/generation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/mamba_ssm/utils/hf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/test_mamba_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/tests/ops/test_selective_scan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mamba/tests/ops/triton/test_selective_state_update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_DeepLesion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_LUNA16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_distill.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/Argoverse.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/DOTAv1.5.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/DOTAv1.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/GlobalWheat2020.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/ImageNet.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/Objects365.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/SKU-110K.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/VOC.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/VisDrone.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/african-wildlife.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/brain-tumor.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/carparts-seg.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/coco-pose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/coco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/coco128-seg.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/coco128.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/coco8-pose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/coco8-seg.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/coco8.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/crack-seg.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/dota8.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/lvis.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/macaque-pose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/open-images-v7.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/package-seg.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/signature.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/tiger-pose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/datasets/xView.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/default.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/rt-detr/rtdetr-l.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/rt-detr/rtdetr-resnet101.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/rt-detr/rtdetr-resnet50.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/rt-detr/rtdetr-x.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v3/yolov3-spp.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v3/yolov3-tiny.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v3/yolov3.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v5/yolov5-p6.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v5/yolov5.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v6/yolov6.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v8/yolov8-cls-resnet101.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v8/yolov8-cls-resnet50.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v8/yolov8-cls.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v8/yolov8-ghost-p2.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v8/yolov8-ghost-p6.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v8/yolov8-ghost.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v8/yolov8-macaque-pose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v8/yolov8-obb.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v8/yolov8-p2.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v8/yolov8-p6.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v8/yolov8-pose-p6.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v8/yolov8-pose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v8/yolov8-rtdetr.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v8/yolov8-seg-p6.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v8/yolov8-seg.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v8/yolov8-world.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v8/yolov8-worldv2.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v8/yolov8.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v9/yolov9c-seg.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v9/yolov9c.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v9/yolov9e-seg.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v9/yolov9e.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/trackers/botsort.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/trackers/bytetrack.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/data/annotator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/data/augment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/data/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/data/build.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/data/converter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/data/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/data/explorer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/data/explorer/explorer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/data/explorer/gui/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/data/explorer/gui/dash.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/data/explorer/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/data/loaders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/data/scripts/download_weights.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/data/scripts/get_coco.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/data/scripts/get_coco128.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/data/scripts/get_imagenet.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/data/split_dota.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/data/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/engine/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/engine/exporter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/engine/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/engine/predictor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/engine/results.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/engine/trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/engine/tuner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/engine/validator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/hub/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/hub/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/hub/session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/hub/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/fastsam/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/fastsam/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/fastsam/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/fastsam/prompt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/fastsam/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/fastsam/val.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/nas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/nas/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/nas/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/nas/val.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/rtdetr/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/rtdetr/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/rtdetr/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/rtdetr/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/rtdetr/val.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/sam/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/sam/amg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/sam/build.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/sam/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/sam/modules/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/sam/modules/decoders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/sam/modules/encoders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/sam/modules/sam.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/sam/modules/tiny_encoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/sam/modules/transformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/sam/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/utils/loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/utils/ops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/yolo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/yolo/classify/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/yolo/classify/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/yolo/classify/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/yolo/classify/val.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/yolo/detect/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/yolo/detect/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/yolo/detect/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/yolo/detect/val.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/yolo/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/yolo/obb/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/yolo/obb/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/yolo/obb/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/yolo/obb/val.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/yolo/pose/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/yolo/pose/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/yolo/pose/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/yolo/pose/val.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/yolo/segment/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/yolo/segment/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/yolo/segment/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/yolo/segment/val.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/yolo/world/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/yolo/world/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/models/yolo/world/train_world.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/nn/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/nn/autobackend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/nn/modules/.ipynb_checkpoints/block-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/nn/modules/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/nn/modules/block.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/nn/modules/conv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/nn/modules/head.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/nn/modules/mamba/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/nn/modules/mamba/csm_triton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/nn/modules/mamba/csms6s.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/nn/modules/mamba/vmamba.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/nn/modules/mamba/vmamba_checks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/nn/modules/transformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/nn/modules/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/nn/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/solutions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/solutions/ai_gym.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/solutions/analytics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/solutions/distance_calculation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/solutions/heatmap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/solutions/object_counter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/solutions/parking_management.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/solutions/queue_management.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/solutions/speed_estimation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/trackers/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/trackers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/trackers/basetrack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/trackers/bot_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/trackers/byte_tracker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/trackers/track.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/trackers/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/trackers/utils/gmc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/trackers/utils/kalman_filter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/trackers/utils/matching.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/.ipynb_checkpoints/__init__-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/.ipynb_checkpoints/autobatch-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/.ipynb_checkpoints/benchmarks-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/.ipynb_checkpoints/downloads-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/.ipynb_checkpoints/errors-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/.ipynb_checkpoints/files-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/.ipynb_checkpoints/instance-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/.ipynb_checkpoints/loss-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/.ipynb_checkpoints/ops-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/.ipynb_checkpoints/patches-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/.ipynb_checkpoints/tal-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/.ipynb_checkpoints/triton-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/.ipynb_checkpoints/tuner-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/autobatch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/benchmarks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/callbacks/.ipynb_checkpoints/__init__-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/callbacks/.ipynb_checkpoints/base-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/callbacks/.ipynb_checkpoints/clearml-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/callbacks/.ipynb_checkpoints/comet-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/callbacks/.ipynb_checkpoints/mlflow-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/callbacks/.ipynb_checkpoints/neptune-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/callbacks/.ipynb_checkpoints/raytune-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/callbacks/.ipynb_checkpoints/tensorboard-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/callbacks/.ipynb_checkpoints/wb-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/callbacks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/callbacks/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/callbacks/clearml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/callbacks/comet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/callbacks/dvc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/callbacks/hub.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/callbacks/mlflow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/callbacks/neptune.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/callbacks/raytune.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/callbacks/tensorboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/callbacks/wb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/checks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/dist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/downloads.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/instance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/ops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/patches.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/plotting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/tal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/torch_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/triton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/utils/tuner.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="3AMzr5Jz9v6qAhn3OobhxCvTiZM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/chenjunzhou/Desktop/project/MC2D-YOLO&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aeef806e-68b7-4e47-83f6-8e18599df865" name="Changes" comment="" />
+      <created>1772417423462</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772417423462</updated>
+      <workItem from="1772417425037" duration="1119000" />
+      <workItem from="1772459807089" duration="1296000" />
+      <workItem from="1772500042818" duration="1580000" />
+      <workItem from="1772502325169" duration="521000" />
+      <workItem from="1772502937148" duration="3047000" />
+      <workItem from="1772506040162" duration="370000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="首次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="首次提交" />
+  </component>
+</project>
