@@ -1,4 +1,4 @@
-# {PROJECT_NAME}
+# MC2D-YOLO
 基于低计算双向状态空间模型的低对比微小病灶检测算法
 {PROJECT_DESCRIPTION}
 
